@@ -1,6 +1,6 @@
 # true-value
 
-Returns the boolean value true using quantum computing/qubit circuit simulation
+Returns the boolean value true.
 
 ## Installation
 ```bash

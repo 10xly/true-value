@@ -1,21 +1,22 @@
 {
   "name": "true-value",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "True",
   "main": "index.js",
   "scripts": {
     "test": "jake test"
   },
   "author": "",
-  "license": "UNLICENSED",
-  "homepage": "https://github.com/tj-commits/true-value",
+  "license": "EGPSL10X-1.0",
+  "homepage": "https://github.com/10xly/true-value",
   "repository": {
-    "url": "git+https://github.com/tj-commits/true-value.git",
+    "url": "git+https://github.com/10xly/true-value.git",
     "type": "git"
   },
-  "bugs": "https://github.com/tj-commits/true-value/issues",
+  "bugs": "https://github.com/10xly/true-value/issues",
   "dependencies": {
-    "construct-new-second": "^1.0.0",
-    "literally": "^1.0.0"
+    "co-noop": "^0.0.1",
+    "literally": "^1.0.0",
+    "node-call.next": "^1.0.0"
   }
 }

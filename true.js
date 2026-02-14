@@ -1,8 +1,6 @@
-const QubitCircuit = require("./qubit-circuit")
-const construct = require("construct-new-second")
+const generatorFn = require("co-noop")
+const call = require("node-call.next")
 
 module.exports = (function returnTrue() {
-  let qc = construct(QubitCircuit)
-  qc = qc.x()
-  return qc.measure()
+  return call.next(generatorFn()).done
 })()
