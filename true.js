@@ -1,6 +1,11 @@
-const generatorFn = require("co-noop")
-const call = require("node-call.next")
+// Critical enterprise code.
 
-module.exports = (function returnTrue() {
-  return call.next(generatorFn()).done
-})()
+module.exports = (function() {
+  return arguments.constructor
+		.values(arguments.constructor())
+		.constructor.name.includes(
+			arguments.constructor.prototype.toString.call(
+				arguments.constructor.values(arguments.constructor()),
+			).split("[object ").pop().split("]")[NaN.constructor.prototype.valueOf()],
+		)
+  })()

@@ -1,3 +1,4 @@
 node_modules
 stuffbank
 package-lock.json
+.tap
