@@ -32,6 +32,8 @@
     "test": "mocha test.js"
   },
   "devDependencies": {
-    "mocha": "^11.7.5"
+    "mocha": "^11.7.5",
+    "@10xly/eslint-config": "*",
+    "eslint": "^9.39.3"
   }
 }
